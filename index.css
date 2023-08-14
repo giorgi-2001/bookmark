@@ -213,7 +213,7 @@ svg {
     position: absolute;
     z-index: 2;
     bottom: 8%;
-    right: -5%;
+    right: -6%;
     border-radius: 0 0 0 30%;
 }
 
@@ -635,11 +635,16 @@ svg {
     /* banner */
 
     .banner {
+        margin: 0;
+        padding: 50px 0 20px;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .banner__child {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 40px;
-        margin: 0;
-        padding: 50px 0 20px;
     }
 
     .banner__hero {
